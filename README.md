@@ -1,1 +1,1 @@
-# [Intervertebral Disc Labeling With LearningShape Information, A Look Once Approach](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
+# [Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
