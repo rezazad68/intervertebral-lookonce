@@ -17,8 +17,7 @@ If this code helps with your research please consider citing the following paper
 
 This code has been implemented in python language using Pytorch libarary and tested in ubuntu, though should be compatible with related environment. The required libraries are included in the `requiremetns.txt` file. Please follow the bellow steps to train and evaluate the model.
 
-
-1- Download the [Spine Generic Dataset](https://www.nature.com/articles/s41597-021-00941-8).
+1- Download the [Spine Generic Public Database (Multi-Subject)](https://www.nature.com/articles/s41597-021-00941-8).
 
 2- Run the `create_dataset.py` to gather the required data from the Spin Generic dataset.
 
