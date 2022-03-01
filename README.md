@@ -45,7 +45,7 @@ D- You can change the number of stacked hourglass by `--stacks` argument. For mo
 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/TMUnet/blob/main/Figures/Method%20(Main).png)
+![Diagram of the proposed method](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/fig1.pdf)
 
 ### Perceptual visualization of the proposed Contextual Attention module.
 ![Diagram of the proposed method](https://github.com/rezazad68/TMUnet/blob/main/Figures/Method%20(Submodule).png)
