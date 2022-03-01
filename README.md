@@ -3,7 +3,7 @@
 Contexual attention network for medical image segmentation with state of the art results on skin lesion segmentation, multiple myeloma cell segmentation. This method incorpotrates the transformer module into a U-Net structure so as to concomitantly capture long-range dependancy along with resplendent local informations.
 If this code helps with your research please consider citing the following paper:
 </br>
-> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate), [Ehsan Adeli](https://scholar.google.com/citations?user=qlun0AgAAAAJ), [Julien Cohen-Adad](https://scholar.google.com/citations?user=6cAZ028AAAAJ) and [Dorit Merhof
+> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate), [Ehsan Adeli](https://scholar.google.com/citations?user=7NX_J_cAAAAJ&hl=en), [Julien Cohen-Adad](https://scholar.google.com/citations?user=6cAZ028AAAAJ) and [Dorit Merhof
 ](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach", download [link](https://arxiv.org/pdf/1909.00166.pdf).
 
 
