@@ -45,10 +45,10 @@ D- You can change the number of stacked hourglass by `--stacks` argument. For mo
 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/fig1.pdf)
+![Diagram of the proposed method](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/fig1-1.png)
 
-### Perceptual visualization of the proposed Contextual Attention module.
-![Diagram of the proposed method](https://github.com/rezazad68/TMUnet/blob/main/Figures/Method%20(Submodule).png)
+### Perceptual visualization of the proposed post-processing approach to eliminate the rate of FP / FN detections.
+![Diagram of the proposed method](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/fig2-1.png)
 
 
 ## Results
