@@ -4,7 +4,8 @@ Contexual attention network for medical image segmentation with state of the art
 If this code helps with your research please consider citing the following paper:
 
 </br>
-> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate), [Ehsan Adeli](https://scholar.google.com/citations?user=7NX_J_cAAAAJ&hl=en), [Julien Cohen-Adad](https://scholar.google.ca/citations?user=6cAZ028AAAAJ&hl=en) and [Dorit Merhof](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach", download [link](https://arxiv.org/pdf/1909.00166.pdf).
+> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate), [Yuli Wu](https://scholar.google.com/citations?user=qlun0AgAAAAJ) and [Dorit Merhof
+](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Contextual Attention Network: Transformer Meets U-Net", download [link](https://arxiv.org/pdf/1909.00166.pdf).
 
 
 
