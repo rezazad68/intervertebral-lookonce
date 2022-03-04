@@ -86,25 +86,25 @@ Azad et. all [Proposed](https://github.com/rezazad68/TMUnet/edit/main/README.md)
 (a): Intervertebral labeling results of three representative T2 images. upper row: ground truth, lower row: predictions. (b): Before (left) and after (right) applying look-once approach on the T1 generated noisy prediction.
 
 
-### Results of the proposed post-processing approach
+## Results of the proposed post-processing approach
 
-#### Performance Evalution on the Multiple Myeloma Cell Segmentation task
+#### Table 3 : Performance comparison of the proposed post-processing approach vs the SOTA approach
+for eliminating FP detection.
 
-Methods | mIOU
------------- | -------------
-[Frequency recalibration U-Net](https://openaccess.thecvf.com/content/ICCV2021W/CVAMD/papers/Azad_Deep_Frequency_Re-Calibration_U-Net_for_Medical_Image_Segmentation_ICCVW_2021_paper.pdf)	 |0.9392 
-[XLAB Insights](https://arxiv.org/abs/2105.06238)	|0.9360
-[DSC-IITISM](https://arxiv.org/abs/2105.06238)	|0.9356	  
-[Multi-scale attention deeplabv3+](https://arxiv.org/abs/2105.06238)	 |0.9065	  
-[U-Net](https://arxiv.org/abs/1505.04597)	  |0.7665
-[Baseline](https://128.84.21.199/pdf/2003.05056.pdf)	  |0.9172
-[Proposed](https://128.84.21.199/pdf/2003.05056.pdf)	  |**0.9395**
+Methods  |F1 | Accuracy| Specificity | Sensitivity | AUC
+------------ | -------------|----|----------------- |----------------- |-----------------
+Rouhier et. all [Condition based](https://openreview.net/pdf?id=ZxjnohXHCV)   |0.850 |0.881    |0.891 |0.902 |0.890
+Azad et. all [Search tree](https://arxiv.org/abs/2108.06554)   |0.902	  |0.921      |0.925 |0.914 |0.920
+Proposed [without geometrical relationship module](https://github.com/rezazad68/TMUnet/edit/main/README.md)   |0.914  |0.932    |0.941	|0.917 |0.9292
+Proposed [Only look once](https://github.com/rezazad68/TMUnet/edit/main/README.md)	  |**0.942** 	| **0.958**	|**0.967** |**0.942** |**0.955**
 
 
 
-#### Multiple Myeloma Cell Segmentation results
+#### Comparing inference time of the proposed method vs the search-tree based approach
 
-![Multiple Myeloma Cell Segmentation result](https://github.com/rezazad68/TMUnet/blob/main/Figures/Cell_segmentation.png)
+![Inference time of post-processing approaches comparison](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/supp_inference.png)
+
+### For more results of the proposed method for intervertebral disc labeling please refer to the [paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
 
 ### Model weights
 You can download the learned weights for each task in the following table. 
