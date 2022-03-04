@@ -57,34 +57,36 @@ D- You can change the number of stacked hourglass by `--stacks` argument. For mo
 
 
 ## Results
-For evaluating the performance of the proposed method, Two challenging task in medical image segmentaion has been considered. In bellow, results of the proposed approach illustrated.
+Our analysis was based on the publicly available [Spine Generic Dataset](https://www.nature.com/articles/s41597-021-00941-8). In bellow, results of the proposed approach illustrated.
 </br>
-#### Task 1: SKin Lesion Segmentation
+## Table 1 : Intervertebral disc labeling results on the spine generic public dataset (T1 Modality). Note that DTT indicates Distance to target
+
+Methods  |DTT (mm) | FNR (%)| FPR (%)
+------------ | -------------|----|-----------------
+Ullmann et. all [Template Matching](https://pubmed.ncbi.nlm.nih.gov/25132843/)       |1.97(±4.08)	  |8.1  |2.53
+Rouhier et. all [Countception](https://openreview.net/pdf?id=ZxjnohXHCV)   |**1.03(±2.81)** |4.24     |0.9
+Azad et. all [Pose Estimation](https://arxiv.org/abs/2108.06554)   |1.32(±1.33)	  |**0.32**      |**0.0**
+Baseline [Proposed](https://github.com/rezazad68/TMUnet/edit/main/README.md)   |1.45(±2.70)  |7.3    |1.2	
+Azad et. all [Proposed](https://github.com/rezazad68/TMUnet/edit/main/README.md)	  |1.2(±1.90) 	| 0.7	|**0.0**
+
+## Table 2 : Intervertebral disc labeling results on the spine generic public dataset (T2 Modality). Note that DTT indicates Distance to target
 
 
-#### Performance Comparision on SKin Lesion Segmentation
-In order to compare the proposed method with state of the art appraoches on SKin Lesion Segmentation, we considered Drive dataset.  
+Methods  |DTT (mm) | FNR (%)| FPR (%)
+------------ | -------------|----|-----------------
+Ullmann et. all [Template Matching](https://pubmed.ncbi.nlm.nih.gov/25132843/)       |2.05(±3.21)	  |11.1  |2.11
+Rouhier et. all [Countception](https://openreview.net/pdf?id=ZxjnohXHCV)   |1.78(±2.64) |3.88    |1.5
+Azad et. all [Pose Estimation](https://arxiv.org/abs/2108.06554)   |1.31(±2.79)	  |1.2      |0.6
+Baseline [Proposed](https://github.com/rezazad68/TMUnet/edit/main/README.md)   |1.80(±2.80)  |5.4    |1.8	
+Azad et. all [Proposed](https://github.com/rezazad68/TMUnet/edit/main/README.md)	  |**1.28(±2.61)** 	| **0.9**	|**0.0**
 
-Methods (On ISIC 2017) |Dice-Score | Sensivity| Specificaty| Accuracy
------------- | -------------|----|-----------------|---- 
-Ronneberger and et. all [U-net](https://arxiv.org/abs/1505.04597)       |0.8159	  |0.8172  |0.9680  |0.9164	  
-Oktay et. all [Attention U-net](https://arxiv.org/abs/1804.03999)   |0.8082  |0.7998      |0.9776	  |0.9145
-Lei et. all [DAGAN](https://www.sciencedirect.com/science/article/abs/pii/S1361841520300803)   |0.8425	  |0.8363       |0.9716	 |0.9304
-Chen et. all [TransU-net](https://arxiv.org/abs/2102.04306)   |0.8123  |0.8263     |0.9577	  |0.9207
-Asadi et. all [MCGU-Net](https://arxiv.org/abs/2003.05056)   |0.8927	  |	0.8502      |**0.9855**	  |0.9570	
-Valanarasu et. all [MedT](https://arxiv.org/abs/2102.10662)   |0.8037	  |0.8064       |0.9546	  |0.9090
-Wu et. all [FAT-Net](https://www.sciencedirect.com/science/article/abs/pii/S1361841521003728)   |0.8500	  |0.8392  |0.9725	  |0.9326
-Azad et. all [Proposed TMUnet](https://github.com/rezazad68/TMUnet/edit/main/README.md)	  |**0.9164** 	| **0.9128**	|0.9789	  |**0.9660**
-### For more results on ISIC 2018 and PH2 dataset, please refer to [the paper](https://arxiv.org/abs/1505.04597)
+#### Intervertebral Disc Labeling result on test data
+
+![Intervertebral Disc Labeling result](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/fig3-1.png)
+(a): Intervertebral labeling results of three representative T2 images. upper row: ground truth, lower row: predictions. (b): Before (left) and after (right) applying look-once approach on the T1 generated noisy prediction.
 
 
-#### SKin Lesion Segmentation segmentation result on test data
-
-![SKin Lesion Segmentation  result](https://github.com/rezazad68/TMUnet/blob/main/Figures/Skin%20lesion_segmentation.png)
-(a) Input images. (b) Ground truth. (c) [U-net](https://arxiv.org/abs/2102.10662). (d) [Gated Axial-Attention](https://arxiv.org/abs/2102.10662). (e) Proposed method without a contextual attention module and (f) Proposed method.
-
-
-## Multiple Myeloma Cell Segmentation
+### Results of the proposed post-processing approach
 
 #### Performance Evalution on the Multiple Myeloma Cell Segmentation task
 
