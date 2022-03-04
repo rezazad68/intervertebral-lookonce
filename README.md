@@ -1,6 +1,8 @@
 # [Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
 
-Labeling vertebral discs from MRI scans is crucial for the proper assessment of spine-related diseases which stems from challenges such as complex background, the similarity between discs and bone area to name a few. 
+Labeling vertebral discs from MRI scans is crucial for the proper assessment of spine-related diseases. Challenges such as complex background of MRI images, the similarity between discs and bone area to name a few, usually exacerbates the notorious problem in segmentation of vertebral discs. To overcome this
+issue, we propose to incorporate shape information within the learning process. Moreover, as labelling anatomical structures such as intervertebral discs and usually produces both false positive (FP) and false negative (FN) detections, we propose a look-once approach for the post-processing step in the intervertebral disc labeling procedure.
+
 If this code helps with your research please consider citing the following paper:
 </br>
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate), [Ehsan Adeli](https://scholar.google.com/citations?user=7NX_J_cAAAAJ&hl=en), [Julien Cohen-Adad](https://scholar.google.com/citations?user=6cAZ028AAAAJ) and [Dorit Merhof
@@ -11,7 +13,7 @@ If this code helps with your research please consider citing the following paper
 #### Please consider starring us, if you found it useful. Thanks
 
 ## Updates
-- February 27, 2022: First release (Complete implemenation for [Spine Generic Dataset](https://www.nature.com/articles/s41597-021-00941-8) added.)
+- February 27, 2022: First release (Complete implemenation for [Spine Generic Dataset](https://www.nature.com/articles/s41597-021-00941-8) added)
 
 ### Prerequisties and Run
 
@@ -47,7 +49,10 @@ D- You can change the number of stacked hourglass by `--stacks` argument. For mo
 ## Quick Overview
 ![Diagram of the proposed method](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/fig1-1.png)
 
-### Perceptual visualization of the proposed post-processing approach to eliminate the rate of FP / FN detections.
+## Detailed structure of the proposed shape attention mechanism.
+![Diagram of the proposed method](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/fig4-1.png)
+
+## Perceptual visualization of the proposed post-processing approach to eliminate the rate of FP / FN detections.
 ![Diagram of the proposed method](https://github.com/rezazad68/intervertebral-lookonce/blob/main/Images/fig2-1.png)
 
 
