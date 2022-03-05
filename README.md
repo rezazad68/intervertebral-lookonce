@@ -106,13 +106,6 @@ Proposed [Only look once](https://github.com/rezazad68/TMUnet/edit/main/README.m
 
 ### For more results of the proposed method for intervertebral disc labeling please refer to the [paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf)
 
-### Model weights
-You can download the learned weights for each task in the following table. 
-
-Task | Dataset |Learned weights
------------- | -------------|----
-Intervertebral Disc Labeling| [Drive](http://www.isi.uu.nl/Research/Databases/DRIVE/) |[Proposed Approach](https://drive.google.com/open?id=1_hpfspGGJcWyFcGLXkFUa4k1NdUyOSOb)
-
 
 
 ### Query
