@@ -13,7 +13,7 @@ If this code helps with your research please consider citing the following paper
 #### Please consider starring us, if you found it useful. Thanks
 
 ## Updates
-- February 27, 2022: First release (Complete implemenation for [Spine Generic Dataset](https://www.nature.com/articles/s41597-021-00941-8) added)
+- April 7, 2022: First release (Complete implemenation for [Spine Generic Dataset](https://www.nature.com/articles/s41597-021-00941-8) added)
 
 ### Prerequisties and Run
 
