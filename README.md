@@ -1,7 +1,7 @@
 # [Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach](https://arxiv.org/abs/2204.02943v1)
 
 Labeling vertebral discs from MRI scans is crucial for the proper assessment of spine-related diseases. Challenges such as complex background of MRI images, the similarity between discs and bone area to name a few, usually exacerbates the notorious problem in segmentation of vertebral discs. To overcome this
-issue, we propose to incorporate shape information within the learning process. Moreover, as labelling anatomical structures such as intervertebral discs and usually produces both false positive (FP) and false negative (FN) detections, we propose a look-once approach for the post-processing step in the intervertebral disc labeling procedure.
+issue, we propose to incorporate shape information within the learning process. Moreover, as labelling anatomical structures such as intervertebral discs usually produces both false positive (FP) and false negative (FN) detections, we propose a look-once approach for the post-processing step in the intervertebral disc labeling procedure.
 
 If this code helps with your research please consider citing the following paper:
 </br>
