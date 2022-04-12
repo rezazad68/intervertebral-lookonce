@@ -1,4 +1,4 @@
-# [Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach](https://arxiv.org/abs/2204.02943v1)
+# [Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach](https://arxiv.org/abs/2204.02943)
 
 Labeling vertebral discs from MRI scans is crucial for the proper assessment of spine-related diseases. Challenges such as complex background of MRI images, the similarity between discs and bone area to name a few, usually exacerbates the notorious problem in segmentation of vertebral discs. To overcome this
 issue, we propose to incorporate shape information within the learning process. Moreover, as labelling anatomical structures such as intervertebral discs usually produces both false positive (FP) and false negative (FN) detections, we propose a look-once approach for the post-processing step in the intervertebral disc labeling procedure.
@@ -6,7 +6,19 @@ issue, we propose to incorporate shape information within the learning process. 
 If this code helps with your research please consider citing the following paper:
 </br>
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [Moein Heidari](https://scholar.google.com/citations?user=mir8D5UAAAAJ&hl=en&oi=sra), [Ehsan Adeli](https://scholar.google.com/citations?user=7NX_J_cAAAAJ&hl=en), [Julien Cohen-Adad](https://scholar.google.com/citations?user=6cAZ028AAAAJ) and [Dorit Merhof
-](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach", download [link](https://arxiv.org/abs/2204.02943v1).
+](https://scholar.google.com/citations?user=JH5HObAAAAAJ&sortby=pubdate), "Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach", download [link](https://arxiv.org/abs/2204.02943).
+
+```python
+@article{azad2022intervertebral,
+  title={Intervertebral Disc Labeling With Learning Shape Information, A Look Once Approach},
+  author={Azad, Reza and Heidari, Moein and Cohen-Adad, Julien and Adeli, Ehsan and Merhof, Dorit},
+  journal={arXiv preprint arXiv:2204.02943},
+  year={2022}
+}
+```
+
+
+
 
 
 
